@@ -39,6 +39,7 @@ var onSocketMsg = {
 	},
 	invalid: function() {
 		console.log("[WDS] App updated. Recompiling...");
+		
 	},
 	hash: function(hash) {
 		currentHash = hash;
