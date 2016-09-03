@@ -40,6 +40,8 @@ var onSocketMsg = {
 	invalid: function() {
 		console.log("[WDS] App updated. Recompiling...");
 		
+		document.getElementsByTagName('body')[0].className+=' webpack-reloading'
+		
 	},
 	hash: function(hash) {
 		currentHash = hash;
